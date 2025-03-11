@@ -6,3 +6,8 @@
 nav.navbar a.nav-link{
     color: grey;
 }
+
+nav.navbar button.navbar-toggler{
+    color: grey;
+    border-color: grey;
+}
