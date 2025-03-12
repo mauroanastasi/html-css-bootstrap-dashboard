@@ -11,3 +11,7 @@ nav.navbar button.navbar-toggler{
     color: grey;
     border-color: grey;
 }
+
+#ISBN{
+    height: 200PX;
+}

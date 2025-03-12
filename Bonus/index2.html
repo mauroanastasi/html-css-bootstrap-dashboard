@@ -43,12 +43,51 @@
     <!-- Contenuto principale -->
      <main>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <label for="Nome">Nome Autore
+                        <input type="text" size="100" class="form-control" placeholder="Inserisci qui il nome dell'autore" aria-label="" id="Nome">
+                    </label>
                 </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                <div class="col-6">
+                    <label for="Cognome">Cognome Autore
+                        <input type="text" size="100" class="form-control" placeholder="Inserisci qui il cognome dell'autore" aria-label="Inserisci qui il cognome dell'autore" id="Cognome">
+                    </label>
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="Titolo">Titolo
+                        <input type="text" size="150" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="Inserisci qui il cognome dell'autore" id="Titolo">
+                    </label>
+                <div class="col-12 mt-3">
+                    <label for="Genere">Genere
+                        <select class="form-select" id="Genere" aria-label="Floating label select example">
+                            <option>Scegli il genere</option>
+                            <option value="1">Fantasy</option>
+                            <option value="2">Giallo</option>
+                            <option value="3">Thrille</option>
+                            <option value="4">Romantici</option>
+                            <option value="5">Horror</option>
+                            <option value="6">Per bambini</option>
+                            <option value="7">Fumetti</option>
+                            <option value="8">Manga</option>
+                          </select>            
+                    </label>
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="Anno di pubblicazione">Anno di Pubblicazione
+                        <input type="text" size="150" class="form-control" placeholder="Insirisci l'anno" aria-label="Inserisci qui il cognome dell'autore" id="Titolo">
+                    </label>
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="ISBN#">ISBN#
+                        <input type="text" size="150" class="form-control" placeholder="Inserisci il codice ISBN#" aria-label="Inserisci qui il cognome dell'autore" id="Titolo">
+                    </label>
+                </div>
+                <hr>
+                <div class="col-12 mt-3">
+                    <label for="Note">Note
+                        <input type="text" size="150" class="form-control" placeholder="Inserisci le Note" aria-label="Inserisci qui il cognome dell'autore" id="Note">
+                    </label>
                 </div>
             </div>
         </div>    
